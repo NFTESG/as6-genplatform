@@ -40,13 +40,13 @@ If needed, at the root of the ECOA tool directory, create and activate the virtu
     py -3 -m venv venv
     venv/Scripts/activate.bat
 
-Prerequisite on C librairies
-****************************
+Prerequisite on C libraries
+***************************
 
-Librairies Apr, Cunit Zlog, and Log4cplus are required to be installed on system.
+Libraries Apr, Cunit Zlog, and Log4cplus are required to be installed on system.
 Standard installation or custom installation.
 
-The ECOA_DEPS_DIR environment variable must be set to the librairies installation path.
+The ECOA_DEPS_DIR environment variable must be set to the libraries installation path.
 
 This ECOA_DEPS_DIR environment variable is used during the compilation of ECOA application examples
 or during compilation step during testing.
